@@ -1,4 +1,4 @@
-# PURGE-Ransomware
+![purge_text](https://github.com/user-attachments/assets/0dc3bdda-7ce4-4b7f-a079-679f055739c4)
 
 ### Características de PURGE:
 
