@@ -1,4 +1,4 @@
-![purge_text](https://github.com/user-attachments/assets/61ab7380-a107-4bc9-a8f9-fa2e7a8da167)
+![purge_text](https://github.com/user-attachments/assets/54d95895-d824-4423-a56e-8de919599432)
 
 <h1 align="center"></h1>
 
