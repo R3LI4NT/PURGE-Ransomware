@@ -1,8 +1,6 @@
 # PURGE-Ransomware
 
-PURGE.exe es un Ransomware programado en Python3.
-
-Características de PURGE:
+_Características de PURGE:_
 
 **Algoritmo de cifrado:** Utiliza Fernet(AES), la misma clave que genera se usa para cifrar y descifrar la información. Permite cifrar grandes volúmenes de datos, a diferencia de RSA que usa dos keys y es más lento.
 
