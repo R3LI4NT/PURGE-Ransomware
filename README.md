@@ -29,4 +29,4 @@
 
 <h1 align="center"></h1>
 
-#### Programado por: ~R3LI4NT~
+#### Desarrollador: ~R3LI4NT~
