@@ -29,4 +29,4 @@
 
 <h1 align="center"></h1>
 
-#### Códificado por: ~R3LI4NT~
+#### Programado por: ~R3LI4NT~
