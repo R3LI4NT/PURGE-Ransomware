@@ -1,5 +1,6 @@
 ![purge_text](https://github.com/user-attachments/assets/61ab7380-a107-4bc9-a8f9-fa2e7a8da167)
 
+<h1 align="center"></h1>
 
 ### Características de PURGE:
 
