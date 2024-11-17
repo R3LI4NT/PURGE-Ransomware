@@ -6,7 +6,7 @@ Características de PURGE:
 
 **Algoritmo de cifrado:** Utiliza Fernet(AES), la misma clave que genera se usa para cifrar y descifrar la información. Permite cifrar grandes volúmenes de datos, a diferencia de RSA que usa dos keys y es más lento.
 
-**Extensiones:** ['.pdf', '.txt', '.png','.php','.csv','.docx','.doc','.ppt','.jpg','.jpeg','.xls','mp3','mp4','psd','html','mov','zip','.rar','.db','.sqlite','.sql','.mdb','.accdb','.myd','.frm','.dmp','.ndf','.mdf'].
+**Extensiones:** ['.pdf', '.txt', '.png', '.php', '.csv', '.docx', '.doc', '.ppt', '.jpg', '.jpeg', '.xls', 'mp3', 'mp4', 'psd', 'html', 'mov', 'zip', '.rar', '.db', '.sqlite', '.sql', '.mdb','.accdb','.myd','.frm','.dmp','.ndf','.mdf'].
 
 **Disabler:** Deshabilita la protección de Windows Defender, Firewall, UAC y procesos del sistema (taskmanager.exe, cmd.exe, regedit.exe).
 
