@@ -24,3 +24,9 @@
 ![3](https://github.com/user-attachments/assets/a7e7a939-aaba-4194-993c-bae5aea3467f)
 
 ![virusTotal](https://github.com/user-attachments/assets/e846795d-8c35-4bfc-aefa-a360506380c0)
+
+</br>
+
+<h1 align="center"></h1>
+
+#### Códificado por: ~R3LI4NT~
