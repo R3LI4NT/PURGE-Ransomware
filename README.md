@@ -2,13 +2,17 @@
 
 <h1 align="center"></h1>
 
+### ¿De qué trata el proyecto "PURGE - Ransomware?"
+
+PURGE es un tipo de malware de tipo como Ransomware. Este tipo de software malicioso se distingue por bloquear el acceso a diversos recursos del sistema operativo infectado y, posteriormente, exigir un rescate a cambio de restaurar el acceso a dichos recursos. El proyecto es de uso privado y fue creado con el objetivo de concienciar a los usuarios sobre este tipo de ataques, a través de charlas informativas y demostraciones en vivo de la ejecución del Ransomware.
+
 ### Características de PURGE:
 
 ➤ **Algoritmo de cifrado:** Utiliza Fernet(AES), la misma clave que genera se usa para cifrar y descifrar la información. Permite cifrar grandes volúmenes de datos, a diferencia de RSA que usa dos keys y es más lento.
 
-➤ **Extensiones:** ['.pdf', '.txt', '.png', '.php', '.csv', '.docx', '.doc', '.ppt', '.jpg', '.jpeg', '.xls', 'mp3', 'mp4', 'psd', 'html', 'mov', 'zip', '.rar', '.db', '.sqlite', '.sql', '.mdb','.accdb','.myd','.frm','.dmp','.ndf','.mdf'].
+➤ **Extensiones:** ['.pdf', '.txt', '.png', '.csv', '.docx', '.doc', '.ppt', '.jpg', '.jpeg', '.xls', '.mp3', '.mp4', '.psd', '.html', '.mov', '.rar', '.db', '.sqlite', '.sql', '.mdb', '.accdb', '.myd', '.frm', '.dmp', '.ndf', '.mdf', '.py', '.php', '.perl', '.rb', '.c', '.cs', '.js', '.css', '.dat', '.asc', '.csr', '.RTF', '.uot', '.crt', '.DOT', '.pot', '.ots', '.std', '.xlt', '.jar', '.pas', '.cpp', '.ms11', '.sldm', '.sldx', '.ibd', '.bat', '.lay', '.asm', '.vbs', '.raw', '.cmd', '.zip', '.tar', '.vmdk', '.jsp', '.avi', '.file', '.mkv', '.mpg', '.aes', '.hash', '.class', '.fla']
 
-➤ **Disabler:** Deshabilita la protección de Windows Defender, Firewall, UAC y procesos del sistema (taskmanager.exe, cmd.exe, regedit.exe).
+➤ **Disablers:** Deshabilita la protección de Windows Defender, Firewall, UAC y procesos del sistema (taskmanager.exe, cmd.exe, regedit.exe).
 
 ➤ **Decrypt:** Por cada usuario, generá una llave para desencriptar la información.
 
