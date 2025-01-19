@@ -41,4 +41,8 @@ PURGE es un malware de tipo Ransomware programado en lenguaje Python, este tipo 
 
 <h1 align="center"></h1>
 
-#### Desarrollador: ~R3LI4NT~
+<h4 align="center">PURGE continúa mejorando...</h4>
+
+<h1 align="center"></h1>
+
+#### Developer: ~R3LI4NT~
