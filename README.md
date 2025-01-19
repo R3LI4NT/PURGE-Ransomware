@@ -2,7 +2,7 @@
 
 <h1 align="center"></h1>
 
-### ¿De qué trata el proyecto "PURGE - Ransomware?"
+### ¿De qué trata el proyecto "PURGE - Ransomware"?
 
 PURGE es un tipo de malware de tipo como Ransomware. Este tipo de software malicioso se distingue por bloquear el acceso a diversos recursos del sistema operativo infectado y, posteriormente, exigir un rescate a cambio de restaurar el acceso a dichos recursos. El proyecto es de uso privado y fue creado con el objetivo de concienciar a los usuarios sobre este tipo de ataques, a través de charlas informativas y demostraciones en vivo de la ejecución del Ransomware.
 
