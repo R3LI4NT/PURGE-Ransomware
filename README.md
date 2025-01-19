@@ -12,7 +12,15 @@ PURGE es un tipo de malware de tipo como Ransomware. Este tipo de software malic
 
 ➤ **Extensiones:** ['.pdf', '.txt', '.png', '.csv', '.docx', '.doc', '.ppt', '.jpg', '.jpeg', '.xls', '.mp3', '.mp4', '.psd', '.html', '.mov', '.rar', '.db', '.sqlite', '.sql', '.mdb', '.accdb', '.myd', '.frm', '.dmp', '.ndf', '.mdf', '.py', '.php', '.perl', '.rb', '.c', '.cs', '.js', '.css', '.dat', '.asc', '.csr', '.RTF', '.uot', '.crt', '.DOT', '.pot', '.ots', '.std', '.xlt', '.jar', '.pas', '.cpp', '.ms11', '.sldm', '.sldx', '.ibd', '.bat', '.lay', '.asm', '.vbs', '.raw', '.cmd', '.zip', '.tar', '.vmdk', '.jsp', '.avi', '.file', '.mkv', '.mpg', '.aes', '.hash', '.class', '.fla']
 
-➤ **Disablers:** Deshabilita la protección de Windows Defender, Firewall, UAC y procesos del sistema (taskmanager.exe, cmd.exe, regedit.exe).
+➤ **Disablers:** Deshabilita la protección de Windows Defender, Firewall, UAC y procesos del sistema (taskmanager.exe, cmd.exe, regedit.exe). Desactiva varios puertos populares para evitar que el sistema pueda ser accedido de forma remota desde el exterior.
+
+➤ **Killers:** Bloquea 18 tipos de navegadores para impedir que el usuario navegue mientras el Ransomware está en ejecución, y también deshabilita la interfaz de red para evitar la conexión a Internet.
+
+➤ **Stealers:** Mediante requests silenciosas, PURGE descarga y ejecuta herramientas como Mimikatz, WiFi-Dumper y LaZagn en el directorio "C:\Windows\Temp", renombrándolas como "explorer.exe", "notepad.exe" y "calculator.exe" para pasar desapercibidas por el usuario.
+
+➤ **UploadFiles:** Los resultados generados por las herramientas son cargados en el almacenamiento en la nube del atacante para su análisis. Posteriormente, tanto las herramientas como los archivos de salida se cifran con AES-256 y se eliminan del sistema de la víctima para cubrir las huellas del ataque.
+
+➤ **Builder**: Cuenta con un builder para empaquetar el source code a un .EXE de forma automatizada.
 
 ➤ **Decrypt:** Por cada usuario, generá una llave para desencriptar la información.
 
