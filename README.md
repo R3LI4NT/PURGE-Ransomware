@@ -2,6 +2,8 @@
   <img src="https://github.com/user-attachments/assets/54d95895-d824-4423-a56e-8de919599432" alt="Purge Logo" Logo" />
 </p>
 
+                        Podes ganar o perder pero nunca abandones.
+
 <p align="center">
     <a href="https://python.org">
     <img src="https://img.shields.io/badge/Python-3-green.svg">
@@ -102,7 +104,7 @@ https://github.com/user-attachments/assets/f37e769f-a0ec-4e90-9733-2e6958f6cd47
 > [!CAUTION]
 > Al utilizar este software, usted acepta los términos y condiciones establecidos. En consecuencia, cualquier uso indebido de este software será de exclusiva responsabilidad del usuario final, y no del autor. Este proyecto tiene como objetivo inicial demostrar las capacidades de Python como herramienta para el desarrollo de malware en entornos controlados. Tradicionalmente, lenguajes como C y C++ se utilizan para crear este tipo de software.Advises about risks or negative outcomes of certain actions.
 
-⬇️ Download (Private): 
+⬇️ **Download:**  
 
 <h1 align="center"></h1>
 
