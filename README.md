@@ -10,6 +10,7 @@ Python es un lenguaje de programación muy potente, gracias a la gran variedad d
  malware, a diferencia de lenguajes como C o C++, que tienen un control más directo sobre el sistema operativo. El objetivo de este proyecto es hasta qué punto es posible desarrollar un malware de alto nivel utilizando Python.
 
 <h1 align="center"></h1>
+
 ### Características de PURGE `1.3`:
 
 ➤ **Encriptación:** La clave AES es cifrada con la clave privada RSA para mayor seguridad, se envían al atacante.
