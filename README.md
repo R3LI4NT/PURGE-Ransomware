@@ -1,4 +1,6 @@
-![purge_text](https://github.com/user-attachments/assets/54d95895-d824-4423-a56e-8de919599432)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/54d95895-d824-4423-a56e-8de919599432" alt="Purge Logo" Logo" />
+</p>
 
 <p align="center">
     <a href="https://python.org">
