@@ -9,6 +9,28 @@ PURGE es un malware de tipo Ransomware programado en lenguaje Python, este tipo 
 Python es un lenguaje de programación muy potente, gracias a la gran variedad de bibliotecas y módulos disponibles. Sin embargo, no está diseñado específicamente para la creación de 
  malware, a diferencia de lenguajes como C o C++, que tienen un control más directo sobre el sistema operativo. El objetivo de este proyecto es hasta qué punto es posible desarrollar un malware de alto nivel utilizando Python.
 
+<h1 align="center"></h1>
+### Características de PURGE `1.3`:
+
+➤ **Encriptación:** La clave AES es cifrada con la clave privada RSA para mayor seguridad, se envían al atacante.
+
+➤ Descifrador GUI: Se cuenta con un descifrador para recuperar la clave AES. El .exe es enviado a la víctima junto con la clave privada luego de pagar el rescate.
+
+➤ **Stealers agregados:**
+	- Keylogger: Registra las pulsaciones del teclado y envía los logs cada 5 minutos al servidor del atacante.
+	- System Dumper: Enumera toda la información del sistema operativo (incluyendo hardware) + GeoIP para luego ser enviada al servidor del atacante.
+	- SessionGopher: Extrae información de sesiones guardadas de herramientas como WinSCP, PuTTy, SuperPuTTy, RDP Microsoft para luego ser enviada al servidor del atacante.
+
+➤ **Ejecución remota:** Uso de PAExec para ejecutar comandos remotos en el sistema infectado. PAExec es una modificación de PaExec, siendo indetectable en varios antivirus.
+
+➤ **Eliminación de backups:** Deshabilita mecanismos de recuperación de Windows, cifra con AES-256 (sin almacenarse, lo que impide la recuperación) y destruye particiones.
+
+➤ **Sobreescribe MBR:** Eliminación de opción "Modo Seguro", bloquea bcdedit para impedir modificaciones en el arranque (BCD), desactiva la recuperación del sistema y restauración de Windows, manipula Winlogon para afectar el comportamiento de inicio de sesión. Al presionar el botón DESTRUCTION, el MBR se sobrescribe con los primeros 512 bytes del disco, lo que impide que el sistema pueda arrancar.
+
+➤ **Empaquetado UPX/UPX-Patcher:** Evadir detección de antivirus, dificulta el análisis estático y reversing, ofuscación básica.
+
+<h1 align="center"></h1>
+
 ### Características de PURGE `1.2`:
 
 ➤ **Algoritmo de cifrado:** Utiliza Fernet(AES), la misma clave que genera se usa para cifrar y descifrar la información. Permite cifrar grandes volúmenes de datos, a diferencia de RSA que usa dos keys y es más lento.
