@@ -4,10 +4,10 @@
 
 ### ¿De qué trata el proyecto "PURGE - Ransomware"?
 
-PURGE es un malware de tipo Ransomware programado en lenguaje Python, este tipo de software malicioso se distingue por bloquear el acceso a diversos recursos del sistema operativo infectado y, posteriormente, exigir un rescate a cambio de restaurar el acceso a dichos recursos. El proyecto es de uso privado y fue creado con el objetivo de concienciar a los usuarios sobre este tipo de ataques, a través de charlas informativas y demostraciones en vivo de la ejecución del Ransomware.
+PURGE es un malware de tipo Ransomware programado en lenguaje Python, este tipo de software malicioso se distingue por bloquear el acceso a diversos recursos del sistema operativo infectado y, posteriormente, exigir un rescate a cambio de restaurar el acceso a dichos recursos. El proyecto es de uso privado y fue creado con el propósito de concienciar a los usuarios sobre este tipo de ataques, a través de charlas informativas y demostraciones en vivo de la ejecución del Ransomware.
 
 Python es un lenguaje de programación muy potente, gracias a la gran variedad de bibliotecas y módulos disponibles. Sin embargo, no está diseñado específicamente para la creación de 
- malware, a diferencia de lenguajes como C o C++, que tienen un control más directo sobre el sistema operativo. El objetivo de este proyecto es hasta qué punto es posible desarrollar un malware de alto nivel utilizando Python.
+ malware, a diferencia de lenguajes como C o C++, que tienen un control más directo sobre el sistema operativo. Otro de los objetivos de este proyecto es hasta qué punto es posible desarrollar un malware de alto nivel utilizando Python.
 
 <h1 align="center"></h1>
 
@@ -18,9 +18,9 @@ Python es un lenguaje de programación muy potente, gracias a la gran variedad d
 ➤ Descifrador GUI: Se cuenta con un descifrador para recuperar la clave AES. El .exe es enviado a la víctima junto con la clave privada luego de pagar el rescate.
 
 ➤ **Stealers agregados:**
-- Keylogger: Registra las pulsaciones del teclado y envía los logs cada 5 minutos al servidor del atacante.
-- System Dumper: Enumera toda la información del sistema operativo (incluyendo hardware) + GeoIP para luego ser enviada al servidor del atacante.
-- SessionGopher: Extrae información de sesiones guardadas de herramientas como WinSCP, PuTTy, SuperPuTTy, RDP Microsoft para luego ser enviada al servidor del atacante.
+- __Keylogger:__ Registra las pulsaciones del teclado y envía los logs cada 5 minutos al servidor del atacante.
+- __System Dumper:__ Enumera toda la información del sistema operativo (incluyendo hardware) + GeoIP para luego ser enviada al servidor del atacante.
+- __SessionGopher:__ Extrae información de sesiones guardadas de herramientas como WinSCP, PuTTy, SuperPuTTy, RDP Microsoft para luego ser enviada al servidor del atacante.
 
 ➤ **Ejecución remota:** Uso de PAExec para ejecutar comandos remotos en el sistema infectado. PAExec es una modificación de PaExec, siendo indetectable en varios antivirus.
 
