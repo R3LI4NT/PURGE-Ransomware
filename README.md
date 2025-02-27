@@ -4,7 +4,7 @@
 
 ### ¿De qué trata el proyecto "PURGE - Ransomware"?
 
-PURGE es un malware de tipo Ransomware programado en lenguaje Python, este tipo de software malicioso se distingue por bloquear el acceso a diversos recursos del sistema operativo infectado y, posteriormente, exigir un rescate a cambio de restaurar el acceso a dichos recursos. El proyecto es de uso privado y fue creado con el objetivo de desarrollar un malware de alto nivel utilizando Python, sin ningún fin malicioso ni de causar daño, sino con fines educativos y de investigación.
+PURGE es un malware de tipo Ransomware programado en lenguaje Python, este tipo de software malicioso se distingue por bloquear el acceso a diversos recursos del sistema operativo infectado y, posteriormente, exigir un rescate a cambio de restaurar el acceso a dichos recursos. El proyecto es de uso privado y fue creado con el objetivo de desarrollar un malware de alto nivel utilizando Python, sin ningún fin malicioso ni de causar daño, sino con fines de investigación.
 
 Python es un lenguaje de programación muy potente, gracias a la gran variedad de bibliotecas y módulos disponibles. Sin embargo, no está diseñado específicamente para la creación de 
  malware, a diferencia de lenguajes como C o C++, que tienen un control más directo sobre el sistema operativo.
@@ -89,7 +89,9 @@ https://github.com/user-attachments/assets/f37e769f-a0ec-4e90-9733-2e6958f6cd47
 <h1 align="center"></h1>
 
 > [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+> Al utilizar este software, usted acepta los términos y condiciones establecidos. En consecuencia, cualquier uso indebido de este software será de exclusiva responsabilidad del usuario final, y no del autor.
+
+> Este proyecto tiene como objetivo inicial demostrar las capacidades de Python como herramienta para el desarrollo de malware en entornos controlados. Tradicionalmente, lenguajes como C y C++ se utilizan para crear este tipo de software.Advises about risks or negative outcomes of certain actions.
 
 <h1 align="center"></h1>
 
