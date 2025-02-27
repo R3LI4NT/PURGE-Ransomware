@@ -4,10 +4,10 @@
 
 ### ¿De qué trata el proyecto "PURGE - Ransomware"?
 
-PURGE es un malware de tipo Ransomware programado en lenguaje Python, este tipo de software malicioso se distingue por bloquear el acceso a diversos recursos del sistema operativo infectado y, posteriormente, exigir un rescate a cambio de restaurar el acceso a dichos recursos. El proyecto es de uso privado y fue creado con el propósito de concienciar a los usuarios sobre este tipo de ataques, a través de charlas informativas y demostraciones en vivo de la ejecución del Ransomware.
+PURGE es un malware de tipo Ransomware programado en lenguaje Python, este tipo de software malicioso se distingue por bloquear el acceso a diversos recursos del sistema operativo infectado y, posteriormente, exigir un rescate a cambio de restaurar el acceso a dichos recursos. El proyecto es de uso privado y fue creado con el objetivo de desarrollar un malware de alto nivel utilizando Python, sin ningún fin malicioso ni de causar daño, sino con fines educativos y de investigación.
 
 Python es un lenguaje de programación muy potente, gracias a la gran variedad de bibliotecas y módulos disponibles. Sin embargo, no está diseñado específicamente para la creación de 
- malware, a diferencia de lenguajes como C o C++, que tienen un control más directo sobre el sistema operativo. Otro de los objetivos de este proyecto es hasta qué punto es posible desarrollar un malware de alto nivel utilizando Python.
+ malware, a diferencia de lenguajes como C o C++, que tienen un control más directo sobre el sistema operativo.
 
 <h1 align="center"></h1>
 
