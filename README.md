@@ -65,6 +65,10 @@ Python es un lenguaje de programación muy potente, gracias a la gran variedad d
 
 ![6](https://github.com/user-attachments/assets/f7f1178a-16b5-4e38-bcb1-e43f2c68a417)
 
+https://github.com/user-attachments/assets/f37e769f-a0ec-4e90-9733-2e6958f6cd47
+
+
+
 </br>
 
 <h1 align="center"></h1>
