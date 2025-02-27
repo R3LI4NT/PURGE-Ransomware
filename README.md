@@ -72,11 +72,15 @@ Python es un lenguaje de programación muy potente, gracias a la gran variedad d
 
 ![5](https://github.com/user-attachments/assets/5ffbff24-9fa3-44bb-84fd-f1934855941e)
 
-#### 
+#### Descifrador de clave AES
 
 ![6](https://github.com/user-attachments/assets/9fe75a29-2c93-41f1-8466-6af45b987fbc)
 
+#### MBR Sobreescrito
+
 ![7](https://github.com/user-attachments/assets/f7f1178a-16b5-4e38-bcb1-e43f2c68a417)
+
+#### Panel de control ~ Discord
 
 https://github.com/user-attachments/assets/f37e769f-a0ec-4e90-9733-2e6958f6cd47
 
