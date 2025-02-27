@@ -19,43 +19,44 @@ Python es un lenguaje de programación muy potente, gracias a la gran variedad d
 
 - [x] **C&C Discord:** Se implementó un bot oficial de Purge como comando de control, que selecciona los archivos confidenciales y los envía al canal de Discord controlado por el atacante.
 
-➤ **Stealers agregados:**
+- [x] **Stealers agregados:**
 - __Keylogger:__ Registra las pulsaciones del teclado y envía los logs cada 5 minutos al servidor del atacante.
 - __System Dumper:__ Enumera toda la información del sistema operativo (incluyendo hardware) + GeoIP para luego ser enviada al servidor del atacante.
 - __SessionGopher:__ Extrae información de sesiones guardadas de herramientas como WinSCP, PuTTy, SuperPuTTy, RDP Microsoft para luego ser enviada al servidor del atacante.
 
-➤ **Ejecución remota:** Uso de PAExec para ejecutar comandos remotos en el sistema infectado. PAExec es una modificación de PaExec, siendo indetectable en varios antivirus.
+- [x] **Ejecución remota:** Uso de PAExec para ejecutar comandos remotos en el sistema infectado. PAExec es una modificación de PaExec, siendo indetectable en varios antivirus.
 
-➤ **Eliminación de backups:** Deshabilita mecanismos de recuperación de Windows, cifra con AES-256 (sin almacenarse, lo que impide la recuperación) y destruye particiones.
+- [x] **Eliminación de backups:** Deshabilita mecanismos de recuperación de Windows, cifra con AES-256 (sin almacenarse, lo que impide la recuperación) y destruye particiones.
 
-➤ **Sobreescribe MBR:** Eliminación de opción "Modo Seguro", bloquea bcdedit para impedir modificaciones en el arranque (BCD), desactiva la recuperación del sistema y restauración de Windows, manipula Winlogon para afectar el comportamiento de inicio de sesión. Al presionar el botón DESTRUCTION, el MBR se sobrescribe con los primeros 512 bytes del disco, lo que impide que el sistema pueda arrancar.
+- [x] **Sobreescribe MBR:** Eliminación de opción "Modo Seguro", bloquea bcdedit para impedir modificaciones en el arranque (BCD), desactiva la recuperación del sistema y restauración de Windows, manipula Winlogon para afectar el comportamiento de inicio de sesión. Al presionar el botón DESTRUCTION, el MBR se sobrescribe con los primeros 512 bytes del disco, lo que impide que el sistema pueda arrancar.
 
-➤ **Empaquetado UPX/UPX-Patcher:** Evadir detección de antivirus, dificulta el análisis estático y reversing, ofuscación básica.
+- [x] **Empaquetado UPX/UPX-Patcher:** Evadir detección de antivirus, dificulta el análisis estático y reversing, ofuscación básica.
 
 <h1 align="center"></h1>
 
 ### Características de PURGE `1.2`:
 
-➤ **Algoritmo de cifrado:** Utiliza Fernet(AES), la misma clave que genera se usa para cifrar y descifrar la información. Permite cifrar grandes volúmenes de datos, a diferencia de RSA que usa dos keys y es más lento.
+- [x] **Algoritmo de cifrado:** Utiliza Fernet(AES), la misma clave que genera se usa para cifrar y descifrar la información. Permite cifrar grandes volúmenes de datos, a diferencia de RSA que usa dos keys y es más lento.
 
-➤ **Extensiones:** ['.pdf', '.txt', '.png', '.csv', '.docx', '.doc', '.ppt', '.jpg', '.jpeg', '.xls', '.mp3', '.mp4', '.psd', '.html', '.mov', '.rar', '.db', '.sqlite', '.sql', '.mdb', '.accdb', '.myd', '.frm', '.dmp', '.ndf', '.mdf', '.py', '.php', '.perl', '.rb', '.c', '.cs', '.js', '.css', '.dat', '.asc', '.csr', '.RTF', '.uot', '.crt', '.DOT', '.pot', '.ots', '.std', '.xlt', '.jar', '.pas', '.cpp', '.ms11', '.sldm', '.sldx', '.ibd', '.bat', '.lay', '.asm', '.vbs', '.raw', '.cmd', '.zip', '.tar', '.vmdk', '.jsp', '.avi', '.file', '.mkv', '.mpg', '.aes', '.hash', '.class', '.fla']
+- [x] **Extensiones:** ['.pdf', '.txt', '.png', '.csv', '.docx', '.doc', '.ppt', '.jpg', '.jpeg', '.xls', '.mp3', '.mp4', '.psd', '.html', '.mov', '.rar', '.db', '.sqlite', '.sql', '.mdb', '.accdb', '.myd', '.frm', '.dmp', '.ndf', '.mdf', '.py', '.php', '.perl', '.rb', '.c', '.cs', '.js', '.css', '.dat', '.asc', '.csr', '.RTF', '.uot', '.crt', '.DOT', '.pot', '.ots', '.std', '.xlt', '.jar', '.pas', '.cpp', '.ms11', '.sldm', '.sldx', '.ibd', '.bat', '.lay', '.asm', '.vbs', '.raw', '.cmd', '.zip', '.tar', '.vmdk', '.jsp', '.avi', '.file', '.mkv', '.mpg', '.aes', '.hash', '.class', '.fla']
 
-➤ **Disablers:** Deshabilita la protección de Windows Defender, Firewall, UAC y procesos del sistema (taskmanager.exe, cmd.exe, regedit.exe). Desactiva varios puertos populares para evitar que el sistema pueda ser accedido de forma remota desde el exterior.
+- [x] **Disablers:** Deshabilita la protección de Windows Defender, Firewall, UAC y procesos del sistema (taskmanager.exe, cmd.exe, regedit.exe). Desactiva varios puertos populares para evitar que el sistema pueda ser accedido de forma remota desde el exterior.
 
-➤ **Killers:** Bloquea 18 tipos de navegadores para impedir que el usuario navegue mientras el Ransomware está en ejecución, y también deshabilita la interfaz de red para evitar la conexión a Internet.
+- [x] **Killers:** Bloquea 18 tipos de navegadores para impedir que el usuario navegue mientras el Ransomware está en ejecución, y también deshabilita la interfaz de red para evitar la conexión a Internet.
 
-➤ **Stealers:** Mediante requests silenciosas, PURGE descarga y ejecuta herramientas como Mimikatz, WiFi-Dumper y LaZagn en el directorio "C:\Windows\Temp", renombrándolas como "explorer.exe", "notepad.exe" y "calculator.exe" para pasar desapercibidas por el usuario.
+- [x] **Stealers:** Mediante requests silenciosas, PURGE descarga y ejecuta herramientas como Mimikatz, WiFi-Dumper y LaZagn en el directorio "C:\Windows\Temp", renombrándolas como "explorer.exe", "notepad.exe" y "calculator.exe" para pasar desapercibidas por el usuario.
 
-➤ **UploadFiles:** Los resultados generados por las herramientas son cargados en el almacenamiento en la nube del atacante para su análisis. Posteriormente, tanto las herramientas como los archivos de salida se cifran con AES-256 y se eliminan del sistema de la víctima para cubrir las huellas del ataque.
+- [x] **UploadFiles:** Los resultados generados por las herramientas son cargados en el almacenamiento en la nube del atacante para su análisis. Posteriormente, tanto las herramientas como los archivos de salida se cifran con AES-256 y se eliminan del sistema de la víctima para cubrir las huellas del ataque.
 
-➤ **Builder**: Cuenta con un builder para empaquetar el source code a un .EXE de forma automatizada.
+- [x] **Builder**: Cuenta con un builder para empaquetar el source code a un .EXE de forma automatizada.
 
-➤ **Decrypter:** Por cada usuario, generá una llave para desencriptar la información.
+- [x] **Decrypter:** Por cada usuario, generá una llave para desencriptar la información.
 
-➤ **Auto-Destruction:** Cuenta con un botón para eliminar toda la información en caso de que el usuario no quiera pagar el rescate.
+- [x] **Auto-Destruction:** Cuenta con un botón para eliminar toda la información en caso de que el usuario no quiera pagar el rescate.
 
-➤ **Auto-Downloading:** Tiene la función de descargar un wallpaper y ponerlo de escritorio, así como también un mp3 que será reproducido una vez que encripte la información.
+- [x] **Auto-Downloading:** Tiene la función de descargar un wallpaper y ponerlo de escritorio, así como también un mp3 que será reproducido una vez que encripte la información.
 
+<h1 align="center"></h1>
 
 ![2](https://github.com/user-attachments/assets/e41ba8e3-2887-4623-9faa-a1a2e27121f5)
 
