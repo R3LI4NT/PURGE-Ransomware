@@ -58,17 +58,21 @@ Python es un lenguaje de programación muy potente, gracias a la gran variedad d
 
 <h1 align="center"></h1>
 
-Mensaje de Rescate ~ GUI
+#### Mensaje de Rescate ~ GUI
 
 ![2](https://github.com/user-attachments/assets/e41ba8e3-2887-4623-9faa-a1a2e27121f5)
 
 ![3](https://github.com/user-attachments/assets/108348a9-03d5-4dce-80ce-cf0db02f280f)
 
-s
+#### Archivos encriptados
 
 ![4](https://github.com/user-attachments/assets/a7e7a939-aaba-4194-993c-bae5aea3467f)
 
+#### Ejecución de stealers ~ Drive
+
 ![5](https://github.com/user-attachments/assets/5ffbff24-9fa3-44bb-84fd-f1934855941e)
+
+#### 
 
 ![6](https://github.com/user-attachments/assets/9fe75a29-2c93-41f1-8466-6af45b987fbc)
 
