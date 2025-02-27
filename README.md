@@ -88,6 +88,11 @@ https://github.com/user-attachments/assets/f37e769f-a0ec-4e90-9733-2e6958f6cd47
 
 <h1 align="center"></h1>
 
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+<h1 align="center"></h1>
+
 <h4 align="center">PURGE continúa mejorando...</h4>
 
 <h1 align="center"></h1>
