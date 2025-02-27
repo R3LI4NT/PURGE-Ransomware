@@ -18,9 +18,9 @@ Python es un lenguaje de programación muy potente, gracias a la gran variedad d
 ➤ Descifrador GUI: Se cuenta con un descifrador para recuperar la clave AES. El .exe es enviado a la víctima junto con la clave privada luego de pagar el rescate.
 
 ➤ **Stealers agregados:**
-	- Keylogger: Registra las pulsaciones del teclado y envía los logs cada 5 minutos al servidor del atacante.
-	- System Dumper: Enumera toda la información del sistema operativo (incluyendo hardware) + GeoIP para luego ser enviada al servidor del atacante.
-	- SessionGopher: Extrae información de sesiones guardadas de herramientas como WinSCP, PuTTy, SuperPuTTy, RDP Microsoft para luego ser enviada al servidor del atacante.
+- Keylogger: Registra las pulsaciones del teclado y envía los logs cada 5 minutos al servidor del atacante.
+- System Dumper: Enumera toda la información del sistema operativo (incluyendo hardware) + GeoIP para luego ser enviada al servidor del atacante.
+- SessionGopher: Extrae información de sesiones guardadas de herramientas como WinSCP, PuTTy, SuperPuTTy, RDP Microsoft para luego ser enviada al servidor del atacante.
 
 ➤ **Ejecución remota:** Uso de PAExec para ejecutar comandos remotos en el sistema infectado. PAExec es una modificación de PaExec, siendo indetectable en varios antivirus.
 
