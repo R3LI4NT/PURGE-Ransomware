@@ -95,18 +95,25 @@ Python es un lenguaje de programación muy potente, gracias a la gran variedad d
 
 https://github.com/user-attachments/assets/f37e769f-a0ec-4e90-9733-2e6958f6cd47
 
+Comando: **!system**
 ![system](https://github.com/user-attachments/assets/1570d689-c095-4868-9bc4-c4b2b0f16c44)
 
+Comando: **!net**
 ![net](https://github.com/user-attachments/assets/bf2623f5-55dd-44ad-846f-7c9ca291c65a)
 
+Comando: **!hardware**
 ![hardware](https://github.com/user-attachments/assets/1ebc0f30-32ac-436d-a7e1-b69ef4ec0fb7)
 
+Comando: **!taskmanager**
 ![taskmanager](https://github.com/user-attachments/assets/b2c2f1c1-ce03-4a4a-aaf6-81a8c08141ba)
 
+Comando: **!history**
 ![history](https://github.com/user-attachments/assets/ffee79a0-b88e-4694-b3df-5b8bc5131e3f)
 
+Comando: **!record**
 ![record](https://github.com/user-attachments/assets/9c4be60f-273d-4ef5-aab9-9cdaecc5362b)
 
+Comando: **!screenshot**
 ![screenshoot](https://github.com/user-attachments/assets/2ebcc472-25d3-4297-b658-5be026c3b4a0)
 
 </br>
