@@ -28,7 +28,7 @@ Python es un lenguaje de programación muy potente, gracias a la gran variedad d
 
 - [x] **Descifrador GUI:** Se cuenta con un descifrador para recuperar la clave AES. El .exe es enviado a la víctima junto con la clave privada luego de pagar el rescate.
 
-- [x] **C&C Discord:** Se implementó un bot oficial de Purge como comando de control, que selecciona los archivos confidenciales y los envía al canal de Discord controlado por el atacante.
+- [x] **C&C Discord:** Se implementó un bot oficial de Purge como comando de control, que selecciona los archivos confidenciales y los envía al canal de Discord controlado por el atacante, así como la ejecución de varios comandos remotos.
 
 - [x] **Stealers agregados:**
 - __Keylogger:__ Registra las pulsaciones del teclado y envía los logs cada 5 minutos al servidor del atacante.
