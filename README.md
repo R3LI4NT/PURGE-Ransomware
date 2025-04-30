@@ -121,6 +121,7 @@ Comando: **!screenshot**
 <h1 align="center"></h1>
 
 Correo de contacto:
+
 <img src="https://img.shields.io/badge/r3li4nt.contact@keemail.me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 
 <h1 align="center"></h1>
