@@ -35,7 +35,7 @@ Python es un lenguaje de programación muy potente, gracias a la gran variedad d
 - __System Dumper:__ Enumera toda la información del sistema operativo (incluyendo hardware) + GeoIP para luego ser enviada al servidor del atacante.
 - __SessionGopher:__ Extrae información de sesiones guardadas de herramientas como WinSCP, PuTTy, SuperPuTTy, RDP Microsoft para luego ser enviada al servidor del atacante.
 
-- [x] **Ejecución remota:** Uso de PAExec para ejecutar comandos remotos en el sistema infectado. PAExec es una modificación de PaExec, siendo indetectable en varios antivirus.
+- [x] **Ejecución remota:** Uso de PAExec para ejecutar comandos remotos en el sistema infectado. <a href="https://github.com/poweradminllc/PAExec">PAExec</a> es una modificación de PsExec, siendo indetectable en varios antivirus.
 
 - [x] **Eliminación de backups:** Deshabilita mecanismos de recuperación de Windows, cifra con AES-256 (sin almacenarse, lo que impide la recuperación) y destruye particiones.
 
